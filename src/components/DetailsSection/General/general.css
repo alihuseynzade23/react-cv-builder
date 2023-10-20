@@ -20,3 +20,13 @@
 .svg {
     cursor: pointer;
 }
+
+#form {
+    padding: 1rem 1.7rem;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}

@@ -1,14 +1,11 @@
 import "./info.css";
+import image from "../../assets/CV.png";
 
 function Info() {
     return (
         <div className="info-container card">
             <div className="top-section">
-                <img
-                    src="https://rmathr.github.io/cv-project/a068d6de114a7ec616a7.png"
-                    alt=""
-                    style={{ marginBottom: "1rem" }}
-                />
+                <img src={image} alt="" style={{ marginBottom: "1rem" }} />
                 <h2>CV</h2>
                 <h2>GENERATOR</h2>
             </div>

@@ -101,7 +101,6 @@ function Professional(props) {
                             id="job"
                             name="job"
                             onChange={(e) => setJob(e.target.value)}
-                            value={job}
                             placeholder="Enter Job Title"
                             type="text"
                         />
@@ -110,7 +109,6 @@ function Professional(props) {
                         <label htmlFor="company">Company</label>
                         <input
                             onChange={(e) => setCompany(e.target.value)}
-                            value={company}
                             id="company"
                             name="company"
                             placeholder="Enter Company"

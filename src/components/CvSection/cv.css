@@ -1,7 +1,6 @@
 .cv-container {
     width: 40%;
     background-color: #fff;
-    height: 500px;
 }
 
 .wrapper {
@@ -24,17 +23,13 @@
 
 .cv-data-info {
     display: flex;
+    margin-bottom: 1.5rem;
     align-items: center;
 }
 
 .cv-data-info p {
     margin-left: 0.4rem;
     font-size: 0.9rem;
-}
-
-.education {
-    border-bottom: 1px solid black;
-    margin-top: 2rem;
 }
 
 .cv-education {

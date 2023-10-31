@@ -1,0 +1,15 @@
+.reset-container {
+    padding: 1.5rem 1rem;
+}
+
+.save-button {
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #e31c5b;
+    transition: 0.3s ease-in-out;
+}
+
+.save-button:hover {
+    scale: 1.1;
+}

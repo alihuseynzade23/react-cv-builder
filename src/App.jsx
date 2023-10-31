@@ -7,7 +7,7 @@ import { useState } from "react";
 function App() {
     const [generalState, setGeneralState] = useState({});
     const [educationState, setEducationState] = useState({});
-    const [professionalState, setProfessionalState] = useState({});
+    const [professionalState, setProfessionalState] = useState([]);
 
     const getGeneralData = (data) => {
         setGeneralState(data);

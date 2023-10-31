@@ -47,7 +47,10 @@ function General(props) {
 
     const { fullname, phone, email, city } = state;
     return (
-        <div className="card" style={{ display: "block" }}>
+        <div
+            className="card"
+            style={{ display: "block", marginBottom: "2rem" }}
+        >
             <div className="general-container card-container">
                 <div className="left-section">
                     <svg
